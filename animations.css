@@ -1,0 +1,306 @@
+/* =======================================
+   animations.css
+   Animações do Site
+======================================= */
+
+/* Fade In */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
+
+/* Slide para cima */
+
+@keyframes slideUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(50px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* Slide da esquerda */
+
+@keyframes slideLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/* Slide da direita */
+
+@keyframes slideRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}
+
+/* Zoom */
+
+@keyframes zoom{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.8);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* Flutuar */
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* Rotação */
+
+@keyframes rotate{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/* Piscar */
+
+@keyframes pulse{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.08);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* ===================================
+   Classes
+=================================== */
+
+.fade-in{
+
+    animation:fadeIn 1s ease;
+
+}
+
+.slide-up{
+
+    animation:slideUp .8s ease;
+
+}
+
+.slide-left{
+
+    animation:slideLeft .8s ease;
+
+}
+
+.slide-right{
+
+    animation:slideRight .8s ease;
+
+}
+
+.zoom{
+
+    animation:zoom .8s ease;
+
+}
+
+.float{
+
+    animation:float 3s infinite;
+
+}
+
+.rotate{
+
+    animation:rotate 8s linear infinite;
+
+}
+
+.pulse{
+
+    animation:pulse 2s infinite;
+
+}
+
+/* Hover dos cards */
+
+.card{
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+/* Botões */
+
+.btn{
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* Imagens */
+
+img{
+
+    transition:.5s;
+
+}
+
+img:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* Ícones */
+
+i{
+
+    transition:.4s;
+
+}
+
+i:hover{
+
+    transform:scale(1.2);
+
+}
+
+/* Navbar */
+
+.navbar{
+
+    animation:fadeIn .8s;
+
+}
+
+/* Hero */
+
+.hero{
+
+    animation:slideUp .8s;
+
+}
+
+/* Footer */
+
+footer{
+
+    animation:fadeIn 1.5s;
+
+}

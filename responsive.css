@@ -1,0 +1,171 @@
+/* ======================================
+   RESPONSIVE.CSS
+   Responsividade do site
+====================================== */
+
+/* Notebook */
+
+@media (max-width: 1200px){
+
+    .hero h1{
+        font-size:42px;
+    }
+
+}
+
+/* Tablet */
+
+@media (max-width: 992px){
+
+    .hero{
+
+        padding:70px 20px;
+
+    }
+
+    .hero h1{
+
+        font-size:36px;
+
+    }
+
+    .hero p{
+
+        font-size:18px;
+
+    }
+
+    .navbar-brand{
+
+        font-size:22px;
+
+    }
+
+    .card{
+
+        margin-bottom:20px;
+
+    }
+
+}
+
+/* Celular */
+
+@media (max-width:768px){
+
+    .hero{
+
+        padding:60px 20px;
+
+    }
+
+    .hero h1{
+
+        font-size:30px;
+
+    }
+
+    .hero p{
+
+        font-size:17px;
+
+    }
+
+    h2{
+
+        font-size:26px;
+
+    }
+
+    h3{
+
+        font-size:22px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        margin-bottom:10px;
+
+    }
+
+    footer{
+
+        text-align:center;
+
+    }
+
+}
+
+/* Celulares pequenos */
+
+@media (max-width:576px){
+
+    .hero h1{
+
+        font-size:24px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .navbar-brand{
+
+        font-size:18px;
+
+    }
+
+    .card{
+
+        padding:10px;
+
+    }
+
+    .card-body{
+
+        padding:20px;
+
+    }
+
+    table{
+
+        font-size:13px;
+
+    }
+
+    .table{
+
+        display:block;
+
+        overflow-x:auto;
+
+        white-space:nowrap;
+
+    }
+
+    input,
+    textarea{
+
+        font-size:15px;
+
+    }
+
+}
+
+/* Telas muito grandes */
+
+@media (min-width:1400px){
+
+    .container{
+
+        max-width:1320px;
+
+    }
+
+}
